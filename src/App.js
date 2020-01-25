@@ -11,22 +11,23 @@ function App() {
       <Layout>
           <Header className="header-bg" title="Francisco José Camacho Maya" scroll>
               <Navigation>
+                  <Link to="/">Home</Link>
                   <Link to="/resume">Resume</Link>
                   <Link to="/about-me">About Me</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
               </Navigation>
           </Header>
-          <Drawer className="drawer-bg" title="Las cosas">
+          <Drawer className="drawer-bg" title="Menu">
               <Navigation>
-              <Link to="/resume">Resume</Link>
+                  <Link to="/">Home</Link>
+                  <Link to="/resume">Resume</Link>
                   <Link to="/about-me">About Me</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
               </Navigation>
           </Drawer>
           <Content>
-              <div className="page-content" />
               <Main/>
           </Content>
       </Layout>
