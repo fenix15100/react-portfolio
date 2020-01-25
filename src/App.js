@@ -6,20 +6,20 @@ function App() {
   return (
     <div className="demo-big-content">
       <Layout>
-          <Header title="Title" scroll>
+          <Header title="Francisco José Camacho Maya" scroll>
               <Navigation>
-                  <a href="#">Link</a>
-                  <a href="#">Link</a>
-                  <a href="#">Link</a>
-                  <a href="#">Link</a>
+                  <a href="/">Link</a>
+                  <a href="/">Link</a>
+                  <a href="/">Link</a>
+                  <a href="/">Link</a>
               </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="Las cosas">
               <Navigation>
-                  <a href="#">Link</a>
-                  <a href="#">Link</a>
-                  <a href="#">Link</a>
-                  <a href="#">Link</a>
+                  <a href="/">Link</a>
+                  <a href="/">Link</a>
+                  <a href="/">Link</a>
+                  <a href="/">Link</a>
               </Navigation>
           </Drawer>
           <Content>
