@@ -1,5 +1,6 @@
 import React from 'react';
 import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl'
+import Main from './components/Main'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           </Drawer>
           <Content>
               <div className="page-content" />
+              <Main/>
           </Content>
       </Layout>
     </div>
