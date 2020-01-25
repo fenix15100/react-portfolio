@@ -1,26 +1,27 @@
 import React from 'react';
 import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl'
+import {Link} from 'react-router-dom'
 import Main from './components/Main'
 
 
 function App() {
   return (
-    <div className="demo-big-content">
+    <div className="App">
       <Layout>
           <Header title="Francisco José Camacho Maya" scroll>
               <Navigation>
-                  <a href="/">Link</a>
-                  <a href="/">Link</a>
-                  <a href="/">Link</a>
-                  <a href="/">Link</a>
+                  <Link to="/resume">Resume</Link>
+                  <Link to="/about-me">About Me</Link>
+                  <Link to="/projects">Projects</Link>
+                  <Link to="/contact">Contact</Link>
               </Navigation>
           </Header>
           <Drawer title="Las cosas">
               <Navigation>
-                  <a href="/">Link</a>
-                  <a href="/">Link</a>
-                  <a href="/">Link</a>
-                  <a href="/">Link</a>
+              <Link to="/resume">Resume</Link>
+                  <Link to="/about-me">About Me</Link>
+                  <Link to="/projects">Projects</Link>
+                  <Link to="/contact">Contact</Link>
               </Navigation>
           </Drawer>
           <Content>
