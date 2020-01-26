@@ -24,6 +24,7 @@ const Landing = () => {
                         <h1>Full Stack Developer</h1>
                         <h1>reCoding minds</h1>
                         
+                        
                         <hr/>
                         <div className="skills">
                             
@@ -40,10 +41,8 @@ const Landing = () => {
                                 <i className="fa fa-twitter-square" aria-hidden="true"></i>
                             </a>
                         </div>
-
                     </div>
-
-                    
+   
                 </Cell>
             </Grid>
 
