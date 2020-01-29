@@ -10,7 +10,7 @@ const Main = () => {
     return (
         <Switch>
             <Route 
-                exact path="/react-portfolio"
+                exact path="/"
                 component={Landing}
             />
             <Route 
@@ -29,9 +29,6 @@ const Main = () => {
                 path="/resume"
                 component={Resume}
             />
-
-           
-
         </Switch>
         
     );

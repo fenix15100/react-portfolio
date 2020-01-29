@@ -11,20 +11,20 @@ function App() {
       <Layout>
           <Header className="header-bg" title="My Portfolio" scroll>
               <Navigation>
-                  <Link to="/react-portfolio/">Home</Link>
-                  <Link to="/react-portfolio/resume">Resume</Link>
-                  <Link to="/react-portfolio/about-me">About Me</Link>
-                  <Link to="/react-portfolio/projects">Projects</Link>
-                  <Link to="/react-portfolio/contact">Contact</Link>
+                  <Link to="/">Home</Link>
+                  <Link to="./resume">Resume</Link>
+                  <Link to="./about-me">About Me</Link>
+                  <Link to="./projects">Projects</Link>
+                  <Link to="./contact">Contact</Link>
               </Navigation>
           </Header>
           <Drawer className="drawer-bg" title="Menu">
               <Navigation>
-                  <Link to="/react-portfolio/">Home</Link>
-                  <Link to="/react-portfolio/resume">Resume</Link>
-                  <Link to="/react-portfolio/about-me">About Me</Link>
-                  <Link to="/react-portfolio/projects">Projects</Link>
-                  <Link to="/react-portfolio/contact">Contact</Link>
+                  <Link to="/">Home</Link>
+                  <Link to="./resume">Resume</Link>
+                  <Link to="./about-me">About Me</Link>
+                  <Link to="./projects">Projects</Link>
+                  <Link to="./contact">Contact</Link>
               </Navigation>
           </Drawer>
           <Content>
