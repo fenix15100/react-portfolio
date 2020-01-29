@@ -7,26 +7,27 @@ import Contact from './Contact';
 import Resume from './Resume';
 
 const Main = () => {
+    console.log(process.env.PUBLIC_URL)
     return (
         <Switch>
             <Route 
-                exact path={process.env.PUBLIC_URL + "/"}
+                exact path={'/react-portfolio/'}
                 component={Landing}
             />
             <Route 
-                path={process.env.PUBLIC_URL + "/projects"}
+               path='/react-portfolio/projects'
                 component={Projects}
             />
             <Route 
-                path={process.env.PUBLIC_URL + "/about-me"}
+              path='/react-portfolio/about-me'
                 component={AboutMe}
             />
             <Route 
-                path={process.env.PUBLIC_URL + "/contact"}
+              path='/react-portfolio/contact'
                 component={Contact}
             />
             <Route 
-                path={process.env.PUBLIC_URL + "/resume"}
+               path={'/react-portfolio/resume'}
                 component={Resume}
             />
         </Switch>
