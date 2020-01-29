@@ -1,9 +1,6 @@
 language: node_js
 node_js:
   - "stable"
-
-env:
-  - PUBLIC_URL = 'https://fenix15100.github.io/react-portfolio/'
 cache:
   directories:
   - node_modules
