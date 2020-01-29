@@ -12,19 +12,19 @@ function App() {
           <Header className="header-bg" title="My Portfolio" scroll>
               <Navigation>
                   <Link to="/">Home</Link>
-                  <Link to="./resume">Resume</Link>
-                  <Link to="./about-me">About Me</Link>
-                  <Link to="./projects">Projects</Link>
-                  <Link to="./contact">Contact</Link>
+                  <Link to="/resume">Resume</Link>
+                  <Link to="/about-me">About Me</Link>
+                  <Link to="/projects">Projects</Link>
+                  <Link to="/contact">Contact</Link>
               </Navigation>
           </Header>
           <Drawer className="drawer-bg" title="Menu">
               <Navigation>
                   <Link to="/">Home</Link>
-                  <Link to="./resume">Resume</Link>
-                  <Link to="./about-me">About Me</Link>
-                  <Link to="./projects">Projects</Link>
-                  <Link to="./contact">Contact</Link>
+                  <Link to="/resume">Resume</Link>
+                  <Link to="/about-me">About Me</Link>
+                  <Link to="/projects">Projects</Link>
+                  <Link to="/contact">Contact</Link>
               </Navigation>
           </Drawer>
           <Content>

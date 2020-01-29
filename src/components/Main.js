@@ -10,23 +10,23 @@ const Main = () => {
     return (
         <Switch>
             <Route 
-                exact path="/"
+                exact path={process.env.PUBLIC_URL + "/"}
                 component={Landing}
             />
             <Route 
-                path="/projects"
+                path={process.env.PUBLIC_URL + "/projects"}
                 component={Projects}
             />
             <Route 
-                path="/about-me"
+                path={process.env.PUBLIC_URL + "/about-me"}
                 component={AboutMe}
             />
             <Route 
-                path="/contact"
+                path={process.env.PUBLIC_URL + "/contact"}
                 component={Contact}
             />
             <Route 
-                path="/resume"
+                path={process.env.PUBLIC_URL + "/resume"}
                 component={Resume}
             />
         </Switch>
