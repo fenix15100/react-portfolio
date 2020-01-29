@@ -14,19 +14,19 @@ const Main = () => {
                 component={Landing}
             />
             <Route 
-                path={process.env.PUBLIC_URL + "/projects"}
+               exact path={process.env.PUBLIC_URL + "/projects"}
                 component={Projects}
             />
             <Route 
-                path={process.env.PUBLIC_URL + "/about-me"}
+              exact  path={process.env.PUBLIC_URL + "/about-me"}
                 component={AboutMe}
             />
             <Route 
-                path={process.env.PUBLIC_URL + "/contact"}
+              exact  path={process.env.PUBLIC_URL + "/contact"}
                 component={Contact}
             />
             <Route 
-                path={process.env.PUBLIC_URL + "/resume"}
+               exact path={process.env.PUBLIC_URL + "/resume"}
                 component={Resume}
             />
         </Switch>
