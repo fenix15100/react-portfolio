@@ -7,10 +7,11 @@ import Contact from './Contact';
 import Resume from './Resume';
 
 const Router = () => {
+
     return (
         <Switch>
             <Route 
-                exact path={'/react-portfolio/'}
+                exact path={['/react-portfolio/','/']}
                 component={Landing}
             />
             <Route 

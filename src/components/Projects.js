@@ -205,7 +205,7 @@ const Projects = () => {
                 <Cell col={12}>
                     <div className="category-tabs">
                     
-                        <Tabs activeTap={activeTap} onChange={(tabId) => setActiveTab(tabId)} ripple="true">
+                        <Tabs activetap={activeTap} onChange={(tabId) => setActiveTab(tabId)} ripple="true">
                             <Tab>JS</Tab>
                             <Tab>Python</Tab>
                             <Tab>PHP</Tab>
