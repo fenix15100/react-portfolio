@@ -6,7 +6,7 @@ import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Resume from './Resume';
 
-const Main = () => {
+const Router = () => {
     console.log(process.env.PUBLIC_URL)
     return (
         <Switch>
@@ -35,4 +35,4 @@ const Main = () => {
     );
 }
 
-export default Main;
+export default Router;
