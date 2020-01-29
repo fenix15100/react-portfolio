@@ -10,23 +10,23 @@ const Main = () => {
     return (
         <Switch>
             <Route 
-                exact path="/react-portfolio/"
+                exact path="/react-portfolio"
                 component={Landing}
             />
             <Route 
-                path="/react-portfolio/projects"
+                path="/projects"
                 component={Projects}
             />
             <Route 
-                path="/react-portfolio/about-me"
+                path="/about-me"
                 component={AboutMe}
             />
             <Route 
-                path="/react-portfolio/contact"
+                path="/contact"
                 component={Contact}
             />
             <Route 
-                path="/react-portfolio/resume"
+                path="/resume"
                 component={Resume}
             />
 
