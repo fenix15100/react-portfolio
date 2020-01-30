@@ -1,0 +1,28 @@
+{
+    "0":[
+        {
+            "cardTitle" : "React Project #1",
+            "bg": "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
+            "cardText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            
+        },
+        {
+            "cardTitle" : "React Project #1",
+            "bg": "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
+            "cardText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"   
+        }
+    ],
+    "1":[
+        {},
+        {}
+    ],
+    "2":[
+        {},
+        {}
+    ],
+    "3":[
+        {},
+        {}
+    ]
+    
+}
